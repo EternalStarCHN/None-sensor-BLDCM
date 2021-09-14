@@ -1,0 +1,216 @@
+Product_ID      IMC101T
+Design_Vers      002.124
+Script User Vers      001.000
+Begin_Section 
+ Section_Name      System 
+ Begin_Trace_Data_Src 
+ 130                  sVar0_L 
+131                  sVar0_H 
+132                    led_L 
+133                    led_H 
+End_Trace_Data_Src 
+ End_Section 
+ Begin_Section 
+ Section_Name      Motor1 
+ Begin_Register_Def 
+ Begin_Register_Params 
+ Name  Script_Command 
+Name_Modifier
+Size   16
+Offset   129
+Value      0
+Min_Value  0
+Max_Value  3
+Signed     False
+Access     Write_SFR
+Begin_Description
+Bitfield value:
+ bit0 :1- start Task0 Script
+ bit0 :0- Stop Task0 Script 
+ bit1 :1- start Task1 Script
+bit1 :0- Stop Task1 Script 
+End_Description
+End_Register_Params
+End_Register_Def
+Begin_Register_Def 
+ Begin_Register_Params 
+ Name                             sVar0_L 
+Name_Modifier
+Size   16
+Offset   130
+Value      0
+Min_Value  0
+Max_Value  65535
+Signed     False
+Access     Write_SFR
+Begin_Description
+
+End_Description
+End_Register_Params
+End_Register_Def
+Begin_Register_Def 
+ Begin_Register_Params 
+ Name                             sVar0_H 
+Name_Modifier
+Size   16
+Offset   131
+Value      0
+Min_Value  0
+Max_Value  65535
+Signed     False
+Access     Write_SFR
+Begin_Description
+
+End_Description
+End_Register_Params
+End_Register_Def
+Begin_Register_Def 
+ Begin_Register_Params 
+ Name                               led_L 
+Name_Modifier
+Size   16
+Offset   132
+Value      0
+Min_Value  0
+Max_Value  65535
+Signed     False
+Access     Write_SFR
+Begin_Description
+
+End_Description
+End_Register_Params
+End_Register_Def
+Begin_Register_Def 
+ Begin_Register_Params 
+ Name                               led_H 
+Name_Modifier
+Size   16
+Offset   133
+Value      0
+Min_Value  0
+Max_Value  65535
+Signed     False
+Access     Write_SFR
+Begin_Description
+
+End_Description
+End_Register_Params
+End_Register_Def
+Begin_Register_Def 
+ Begin_Register_Params 
+ Name  Script_UserVersion 
+Name_Modifier
+Size   16
+Offset   128
+Value      256
+Min_Value  0
+Max_Value  65535
+Signed     False
+Access     Read_SFR
+Begin_Description
+Byte code 8:8 represent Major:Minor
+ End_Description
+End_Register_Params
+End_Register_Def
+Begin_Register_Def 
+ Begin_Register_Params 
+ Name  Script_Command 
+Name_Modifier
+Size   16
+Offset   129
+Value      3
+Min_Value  0
+Max_Value  3
+Signed     False
+Access     Read_SFR
+Begin_Description
+Bitfield value:
+ bit0 :1- start Task0 Script
+ bit0 :0- Stop Task0 Script 
+ bit1 :1- start Task1 Script
+bit1 :0- Stop Task1 Script 
+End_Description
+End_Register_Params
+End_Register_Def
+Begin_Register_Def 
+ Begin_Register_Params 
+ Name  Script_Error 
+Name_Modifier
+Size   16
+Offset   191
+Value      0
+Min_Value  0
+Max_Value  65535
+Signed     False
+Access     Read_SFR
+Begin_Description
+Virtual Machine Error, Number represent the byte position during error is triggered
+ End_Description
+End_Register_Params
+End_Register_Def
+Begin_Register_Def 
+ Begin_Register_Params 
+ Name                             sVar0_L 
+Name_Modifier
+Size   16
+Offset   130
+Value      0
+Min_Value  0
+Max_Value  65535
+Signed     False
+Access     Read_SFR
+Begin_Description
+
+End_Description
+End_Register_Params
+End_Register_Def
+Begin_Register_Def 
+ Begin_Register_Params 
+ Name                             sVar0_H 
+Name_Modifier
+Size   16
+Offset   131
+Value      0
+Min_Value  0
+Max_Value  65535
+Signed     False
+Access     Read_SFR
+Begin_Description
+
+End_Description
+End_Register_Params
+End_Register_Def
+Begin_Register_Def 
+ Begin_Register_Params 
+ Name                               led_L 
+Name_Modifier
+Size   16
+Offset   132
+Value      0
+Min_Value  0
+Max_Value  65535
+Signed     False
+Access     Read_SFR
+Begin_Description
+
+End_Description
+End_Register_Params
+End_Register_Def
+Begin_Register_Def 
+ Begin_Register_Params 
+ Name                               led_H 
+Name_Modifier
+Size   16
+Offset   133
+Value      0
+Min_Value  0
+Max_Value  65535
+Signed     False
+Access     Read_SFR
+Begin_Description
+
+End_Description
+End_Register_Params
+End_Register_Def
+End_Section
+ 

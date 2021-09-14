@@ -1,0 +1,342 @@
+iMOTION2Wizard Answers File V2.3
+Motor 1 Ke=0.21
+Motor 1 Single Shunt Sensing Type=PhsShift
+TemperatureCompensation=Enable
+Motor 1 PWM GuardBand=3
+JCOMBaudrate=0
+Motor 1 Resistance=6.2
+Motor 1 Phase Shift Window Size=2
+iMotion2 ParameterVersion=1
+Motor 1 Flux to Hall angle=60
+Motor 1 Modulation Index Ramp Rate=10
+Motor 1 KpMIreg=63
+Motor 1 Gatekill Comparator Reference=0.9666
+Duty-MtrSp=25.5
+Motor 1 Enable Overspeed Fault=Enable
+Motor 1 Current Offset=833
+Motor 1 Hall Timeout Fault=Disable
+Duty-MtrSt=25.5
+PGHeartBeat=Disable
+DC Bus Feedback Sensing Low=23
+Motor 1 Gatekill Filter Time Constant=1
+UARTBdRate=57600
+Motor 1 Speed Feedback Filter Time Constant=0.2
+Motor 1 Current Input=833
+NdAddress=1
+VspV-MtrSp=20
+Motor 1 Current Regulator Bandwidth=600
+VspV-MtrSt=24
+iMotion2 UserVersion=0
+Motor 1 Max RPM=16383
+RotorLockProtection=10-Sec
+InductanceSense=Disable
+System ADComp Enable=Disable
+Motor 1 2Phs Enable=Disable
+ParameterSetNumber=0
+Motor 1 State Machine Time=1
+PGPulse=12
+Motor 1 Min Speed=6000
+iMotion2 ParameterLabel=Motor0
+Motor 1 Motor Limit=100
+ControlInputMeasurement=Disable
+Motor 1 Over Temp Enable=Disable
+iMotion2 MulMtrSupport=MotorID-Disabled
+Motor 1 Speed Ramp Rate=800
+Enable Overspeed Fault=0
+Motor 1 NTC Temp Shutdown Value=1
+Motor 1 Torque Compensation Off Speed=6000
+Motor 1 Start Limit=30
+VspV-MtrMaxRPM=96
+Motor 1 Model Name=usb-3rd-a-motor
+Motor 1 Torque Compensation Enable Disable=Disable
+DC Bus Critical Voltage Level=19
+Motor 1 Gatekill Hardware Level=0.47
+Motor 1 FlxTau=10
+Motor 1 Catch Spin Enable=Disable
+Motor 1 Current Feedback Gain=3
+UserUARTDelay=0
+Motor 1 Hall Noise Filter=3
+Restart Retry Period After Fault=10
+DC Bus Over Voltage Level=18
+Motor 1 Min Pulse Width 3 Phase=1
+Motor 1 Min Pulse Width 2 Phase=1.5
+Motor 1 Boost Cap Charge Delay=19
+PowerDipridethrough=Disable
+Motor 1 Low Speed Threshold=5000
+Motor 1 Low Speed Motor Limit=90
+Motor 1 Bootstrap Cap Charge Time=10
+Maximum AC Input Voltage=270
+Motor 1 2Phs PWM Type=1
+Frq-MtrMaxRPM=1000
+Duty-MtrMaxRPM=100
+Motor 1 Enable DC bus Overvoltage Fault=Enable
+Frq-MtrSp=255
+Motor 1 PWM Type=3Phase_Only
+Motor 1 Phase Loss Detection=Disable
+DC Bus Under Voltage Level=9
+Frq-MtrSt=255
+Motor 1 Enable DC bus Undervoltage Fault=Enable
+Motor 1 Amps=0.2
+AC Input Frequency=50
+Motor 1 Hall PLL error=0
+ControllerSupplyVoltage=5.0
+Motor 1 Regen Limit=5
+PowerDipridethroughKpUVPLL=20000
+Motor 1 Minimum Modulation=5
+Motor 1 KxMIreg=4
+Motor 1 KpSregU88=0.25
+OvrMdEnable=Enable
+Motor 1 Gate Sense Low=High
+Motor 1 Enable Start Fail Fault=Disable
+Motor 1 Torque Compensation Gain=120
+PFC Generation Current Limit=0.25
+Motor 1 Single Shunt Low Niose Sensing=Disable
+Restart Retry Count After Fault=3
+3phto2phPWMSwSpeed=500
+iMotion2 ParameterLable=Motor0
+Motor 1 RPM=2000
+Motor 1 Min Pulse=0
+Motor 1 Gate Sense High=High
+Field Weakening Current Limit=0
+Maximum DC Bus Voltage=20
+Motor 1 Poles=8
+DC Bus Feedback Sensing High=100
+Motor 1 Speed Regulator Bandwidth=5
+Motor 1 Gatekill Comparator Level=0.35
+Motor 1 Torque Compensation Limit=2048
+Motor 1 Torque Compensation On Speed=5000
+Motor 1 Open Loop Speed Ramp Rate=800
+DC Bus Feedback Scaling=22.54
+Motor 1 Zero Speed Detection=Disable
+JCOMEnable=Disable
+PowerDipridethroughKxUVPD=100
+Motor 1 Ld=0.52
+Motor 1 Kt=1.61
+FluxPLLDetectFault=Disable
+Motor 1 KxSreg=6
+Motor 1 Min Pulse Width=1
+iMotion2 Default Parameter Set=0
+ZeroSpeedDetectFault=2-Sec
+Motor 1 Hall to Flux angle=90
+Motor 1 Lq=0.58
+Motor 1 KpSreg=30
+Motor 1 Catch Spin Time=1
+Motor 1 Propagation Delay=0.2
+Motor 1 Hall Angle Offset=120
+Motor 1 KxSregU016=26.214
+Motor 1 Torque Compensation Angle Offset=29000
+Motor 1 Park Time=0
+Motor 1 Gatekill Input Source=Gatekill-Pin
+Motor 1 Hall Comparator Hysteresis=20mV
+PowerDipridethroughPLLTime=200
+UserUARTPortSet=UART1
+SaftyEnable=Disable
+Motor 1 Hall arc tan=0
+Motor 1 Inverter Dead Time=1
+Motor 1 Vdc Compensation=Enable
+Motor 1 Hall Invalid Fault=Enable
+PowerDipridethroughKxUVPLL=100
+##Options
+=
+PFCCurCycles=
+ScriptConfigure=Enable
+FirPath=C:/Users/gliang1/Documents/BOARD Projects/DEMO-iMOTION2go/data report manual/Conbined190904/prepared for release/IMC101T-T038_A_V1.02.20.ldf
+HallSense=None Hall
+ScriptFile=C:/Users/gliang1/Documents/BOARD Projects/DEMO-iMOTION2go/data report manual/Conbined190904/ScriptTest190904.mcs
+NewHardware=0
+CurrentPath=C:\Users\gliang1\Documents\BOARD Projects\DEMO-iMOTION2go\data report manual\Conbined190904\prepared for release\iMOTION2go190904-Neweco2.mc2
+Control Mode Select=Speed Control
+PFC PWM Cval=3699
+PFCFreq=20
+MotorMiscCycles=336
+Motor 2 PWM Cval=2147483648
+PFCVoltCycles=
+UserGPIO10=NotUsed
+UserGPIO11=NotUsed
+UserGPIO12=NotUsed
+UserGPIO13=NotUsed
+UserGPIO14=NotUsed
+UserGPIO15=NotUsed
+UserGPIO16=NotUsed
+ParamVersion=1.0
+UserGPIO17=NotUsed
+UserGPIO18=NotUsed
+UserGPIO19=NotUsed
+ScrPath=C:/Users/gliang1/Documents/BOARD Projects/DEMO-iMOTION2go/data report manual/Conbined190904/prepared for release/iMOTION2go190904-Neweco2_Script.ldf
+FileState=Open
+UserGPIO20=NotUsed
+UserGPIO21=NotUsed
+UserGPIO22=NotUsed
+UserGPIO23=NotUsed
+ICPackageType=TSSOP-38
+UserGPIO24=NotUsed
+ControlInput=UART
+ModFreq=0
+UserGPIO25=NotUsed
+MCEFreq=96
+CALCPFCFREQ=N/A
+UserGPIO26=NotUsed
+UserGPIO27=NotUsed
+UserGPIO28=NotUsed
+UserGPIO29=NotUsed
+PFCPWMFreq=50
+CALCM1FREQ=20.0
+PFCSyncDivider=Disabled
+ParPath=C:/Users/gliang1/Documents/BOARD Projects/DEMO-iMOTION2go/data report manual/Conbined190904/prepared for release/Test190904-Neweco2.txt
+FirmwareVersion=v1.02.xx
+UserGPIO0=Output
+Advanced Mode=1
+UserGPIO1=Output
+UserGPIO2=NotUsed
+UserAIN0=1
+Custom Design Name=iMOTION2go
+UserGPIO3=NotUsed
+UserAIN1=0
+UserGPIO4=NotUsed
+UserAIN2=0
+UserGPIO5=NotUsed
+UserAIN3=0
+UserGPIO6=NotUsed
+UserAIN4=0
+UserGPIO7=Output
+UserAIN5=0
+UserGPIO8=NotUsed
+UserAIN6=0
+UserGPIO9=NotUsed
+UserAIN7=0
+UserAIN8=0
+FastControlRate=1
+UserAIN9=0
+ShuntConfig=Single Shunt
+NewMCE=0
+UpdateQeustions=false
+Angle Select=Flux PLL Angle
+UserAIN10=0
+UserAIN11=0
+UserAIN12=0
+CALCM2FREQ=N/A
+KitType=Eval-M1-101T
+Motor 1 PWM Cval=2399
+Utilization=74
+ComPath=C:/Users/gliang1/Documents/BOARD Projects/DEMO-iMOTION2go/data report manual/Conbined190904/prepared for release/combined file.ldf
+##Description
+Using System Configuration File:
+iMOTION2go.mc2
+
+The starter and training kit is intended for the first evaluation of the iMOTION tools and software. It is based on the IMC101T-T038 iMOTION controller and CIPOS Nano IRSM836-015 inverter.
+
+Following two options are available.
+If no hardware change is done on this board and there is no plan to change default control settings: 
+Select > Default Hardware and Control Settings.
+
+If modifications are done on this board, or completely new application hardware has been developed based on this board, or advanced control options will be used:
+Select > Customized Design.
+
+##ScriptCode
+#SET SCRIPT_USER_VERSION (1.00)  /*Script version value should be 255.255*/
+#SET SCRIPT_TASK0_EXECUTION_PERIOD    (50)  /*Script execution time for Task0 in mS, maximum value 65535*/
+#SET SCRIPT_TASK1_EXECUTION_PERIOD    (1)  /*Script execution time for Task1 in 10mS, maximum value 65535*/
+#SET SCRIPT_START_COMMAND (0x3)  /* Start command, Task0 : Bit0, Task1 : Bit1; if bit is set, script executes after init */
+#SET SCRIPT_TASK0_EXECUTION_STEP (1)  /* Script Task0  step, This defines number of lines to be executed every 1mS*/
+#SET SCRIPT_TASK1_EXECUTION_STEP (10) /* Script Task1  step, This defines number of lines to be executed every 10mS*/
+*/
+/*********************************************************************************************************************/
+int sVar0,led;
+/*********************************************************************************************************************/
+/*Task0 init function*/
+Script_Task0_init()
+{
+int sSVar0,sSVar1,sSVar2,volt,limit;
+
+  sSVar0 = RunTimeCounter;
+  sSVar2=0;
+  limit=16000;
+  
+}
+/******************************************************************************************************************/
+/*Task0 script function*/
+Script_Task0()
+{
+
+  if((RunTimeCounter-sSVar0)>5000) //Every 5S
+  { 
+	sSVar0 =RunTimeCounter;
+	sSVar1=1;
+  }
+  if (ADC_Result0>100)  /*(AIN0)*/
+  {
+   volt=ADC_Result0<<2;  //max=4096X4=16383, min=100x4=400
+   if (volt>limit)
+   {
+	volt=limit;
+   }
+
+   if (sSVar1==1)  /* RunTimeCounter */
+	{
+	  if (Command == 1)
+	  { 
+	    Command=0;
+	  }
+	  else
+	  {
+	    if (sSVar2==1)     //switch direction
+		{
+		  TargetSpeed = volt;
+		  sSVar2=0;
+		}
+		else
+		{
+		  TargetSpeed = (-1)*volt;
+		  sSVar2=1;
+		}
+	    Command=1;
+	  }
+	  sSVar1=0;
+	}
+  }
+ else
+ {
+     Command=0;
+ }
+
+}
+/******************************************************************************************************************/
+/*Task1 init function*/
+Script_Task1_init()
+{
+  int sBVar0,sBVar1;
+	sBVar0=0;
+	GPIO7_OUT=1;
+
+}
+/******************************************************************************************************************/
+/*Task1 script function*/
+Script_Task1()
+{
+
+  if (MotorSpeed==0)
+	{
+		GPIO7_OUT=1;
+    }	
+		led= GPIO7_OUT;
+		sVar0=sBVar0;
+  
+  if(sBVar0<16000)
+  {
+		if (MotorSpeed>0)
+		{
+		sBVar0=sBVar0+(MotorSpeed>>2);
+		}
+		else
+		{
+		sBVar0=sBVar0-(MotorSpeed>>2);
+		}
+  }
+  else
+  {
+   sBVar0=0;
+   GPIO7_OUT=~GPIO7_OUT;
+   led=GPIO7_OUT;	
+  }
+
+}
