@@ -1,0 +1,205 @@
+##MOTOR1_PARAMS
+Custom_Design_Name	iMOTION2go
+Mtr_Max_Speed		16383
+Mtr_Rate_Amps		0.20
+Mtr_Num_Poles		8
+Mtr_Ke		0.21
+Mtr_PWM		20
+FastLoopRate		1
+##ScalingBegin
+#NOREALUNIT		1		N/A		This count value does not have a real value equivalent
+#BITFIELD		1		N/A		This count defines bit filed settings
+#DIRECT		1		N/A		This count is the real value  For PrimaryControlLoop, SW_Version
+#M_MTR_IAB_A		0.0004885		A		Max: 2048 Count <--> 1.00 A  For Iu, Iv, Iw, I_Alpha, I_Beta
+#M_MTR_IAB_mA		0.4884766		mA		Max: 2048 Count <--> 1000.40 mA  For Iu, Iv, Iw, I_Alpha, I_Beta
+#M_MTR_VDC_V		0.0065281		V		Max: 4095 Count <--> 26.73 V  For VdcRaw, VdcFilt, VdcOvLevel, VdcUvLevel, CriticalOvLevel
+#M_MTR_FLXDQ_%		0.0488281		%		Rated: 2048 Count <--> 100.00 %  For Flx_M, Flx_Q
+#M_MTR_FLXDQ_Wb		0.0000003		Wb		Rated: 2048 Count <--> 0.00 Wb  For Flx_M, Flx_Q
+#M_MTR_ANG_deg		0.0054932		deg		Max: 32768 Count <--> 180.00 deg  For FluxAngle, OpenLoopAngle, HallAngle, RotorAngle, ParkAngle, TrqCompAngOfst, HallAngleOffset
+#M_MTR_FLXAB_%		0.0804082		%		Rated: 1244 Count <--> 100.00 %  For FluxAlpha, FluxBeta
+#M_MTR_FLXAB_Wb		0.0000006		Wb		Rated: 1244 Count <--> 0.00 Wb  For FluxAlpha, FluxBeta
+#C_MTR_VAB_V		0.0010880		V		Max: 8191 Count <--> 8.91 V  For V_Alpha, V_Beta
+#M_MTR_IDQ_%		0.0244141		%		Rated: 4096 Count <--> 100.00 %  For IQInitial, MotorLim, RegenLim, LowSpeedLim, FwkCurRatio, TrqCompLim
+#M_MTR_IDQ_Arms		0.0000488		Arms		Rated: 4096 Count <--> 0.20 Arms For IdRef_Ext, IqRef_Ext, IdFilt, IqFilt, IdFwk, TrqRef, Id, Iq, MotorCurrent, TrqRef_Comp
+#C_MTR_VDQ_Vrms		0.0012673		Vrms		Max: 4307 Count <--> 5.46 Vrms  For Vd_Ext, Vq_Ext, Vd, Vq, MotorVoltage
+#C_MTR_VDQ_%		0.0201045		%		Max: 4974 Count <--> 100.00 %  For Vd_Ext, Vq_Ext, Vd, Vq, MotorVoltage
+#C_MTR_MOD_%		0.0061035		%		Max: 16384 Count <--> 100.00 %  For MIndexFilt, TargetMI, MIRef,MinMI, MinMI
+#M_MTR_VEL_rpm		0.9999390		rpm		Max: 16384 Count <--> 16383.00 rpm  For TargetSpeed, MotorSpeed, abs_MotorSpeed, SpeedError, SpdRef, HallMotorSpeed, FluxMotorSpeed, DirectStartThr, RegenSpdThr, MinSpd, Pwm2PhThr, TrqCompOnSpeed, TrqCompOffSpeed, Hall2FluxThr, Flux2HallThr
+#M_MTR_VADC_V		0.0012210		V		Max: 4095 Count <--> 5.00 V  For VTH, ControlAnalog, DACout[0], DACout[1], DACout[2], DACout[3], ADC_Result0, ADC_Result1, ADC_Result2, ADC_Result3, ADC_Result4, ADC_Result5, ADC_Result6, ADC_Result7, ADC_Result8, ADC_Result9, ADC_Result10, ADC_Result11, TDerating, TShutdown
+#M_MTR_DTYIN_%		0.1000000		%		Max: 1000 Count <--> 100.00 %  For ControlDuty
+#M_MTR_FIN_Hz		0.1000000		Hz		Nom: 1000 Count <--> 100.00 Hz For ControlFreq
+#C_MTR_ISDUTY_%		0.0122070		%		Max: 8192 Count <--> 100.00 %  For IS _Duty
+#M_MTR_POS32H_cyc		10922.5000000		cycles		Max: 65535 Count <--> 715806037.50 cycles  For PositionCounter_H
+#M_MTR_POS32L_cyc		0.1666667		cycles		Max: 65535 Count <--> 10922.50 cycles  For PositionCounter
+#P_MTR_PWM_kHz		0.1000000		Hz		Nom: 100 Count <--> 10.00 kHz  For PwmFreq
+#P_MTR_PTCK2_us		0.0208333		us		Nom: 96 Count <--> 2.00 us  For PwmDeadtimeR, PwmDeadtimeF
+#P_MTR_PTCK1_us		0.0104167		us		Nom: 96 Count <--> 2.00 us  For SHDelay, TMinPhaseShift, TCntMin, PwmGuardBand, GatekillFilterTime, HallSampleFilter, PFC_TMinOff, PFC_Deadtime, PFC_SHDelay
+#P_MTR_polepair		2.0000000		poles		Nom: 1 Count <--> 2.00 poles  For PolePair
+#M_MTR_STCK10_s		0.0100000		s		Nom: 100 Count <--> 1.00 s  For RotorLockTime, RotorFreezeTime, PLL_OutSyncTime, HallTimeoutPeriod
+#M_MTR_STCK1_s		0.0010000		s		Nom: 1000 Count <--> 1.00 s  For TCatchSpin, ParkTime
+#M_SYS_CPU_%		0.0010000		%		Max: 1000 Count <--> 1.00 %  For CPU_Load, CPU_Load_Peak
+#M_SYS_TEMP_K		1.0000000		K		Nom: 300 Count <--> 300.00 K For InternalTemp
+#P_SYS_DELAY_ms		1.0000000		ms		Nom: 10 Count <--> 10.00 ms  For UVPLLTime, UART0_IdleCount, UART0_LinkBreakCount, UART1_IdleCount, UART1_LinkBreakCount, SysTaskTime
+#P_MTR_U0D16x10-3		0.0152590		x10-3		Nom: 65535 Count <--> 1000.00 x10-3  For KxSreg, KxIReg, PllKp, PllKi
+#P_MTR_U8D8		0.0039062		x1		Nom: 256 Count <--> 1.00 x1  For KpSreg
+#P_MTR_U4D12		0.0002441		x1		Nom: 4096 Count <--> 1.00 x1  For KpIreg, KpIregD
+##ScalingEnd
+##MOTOR1_REGS	0
+#STRING	usb-3rd-a-motor
+#VERSION	1.0
+HwConfig		256
+SysConfig		5
+AngleSelect		2
+CtrlModeSelect		2
+PwmFreq		200
+PwmDeadtimeR		48
+PwmDeadtimeF		48
+SHDelay		19
+TMinPhaseShift		192
+TCntMin		96
+PwmGuardBand		0
+FaultEnable		143
+VdcOvLevel		2757
+VdcUvLevel		1379
+CriticalOvLevel		2910
+RotorLockTime		1000
+FluxFaultTime		0
+GatekillFilterTime		96
+CompRef		921
+BtsChargeTime		200
+TCatchSpin		0
+DirectStartThr		819
+ParkTime		0
+ParkAngle		0
+OpenloopRamp		51
+IS_Pulses		0
+IS_Duty		4096
+IS_IqInit		100
+KpSreg		64
+KxSreg		9
+MotorLim		4096
+RegenLim		205
+RegenSpdThr		6000
+LowSpeedLim		3686
+LowSpeedGain		32767
+SpdRampRate		164
+MinSpd		6000
+Rs		17408
+L0		1930
+LSlncy		212
+VoltScl		12511
+PllKp		200
+PllKi		16
+PllFreqLim		939
+AngMTPA		16384
+FlxTau		1311
+AtanTau		1257
+SpeedScalePsc		11
+SpeedScale		9376
+SpeedScaleRcp		14316
+SpdFiltBW		4096
+PGDeltaAngle		171
+IfbkScl		4399
+KpIreg		63
+KpIregD		57
+KxIreg		542
+FwkLevel		2280
+FwkKx		32
+FwkCurRatio		0
+VdqLim		4974
+AngDel		249
+AngLim		705
+IdqFiltBW		4096
+Pwm2PhThr		500
+TDerating		1241
+TShutdown		819
+CmdStop		0
+CmdStart		0
+CmdGain		0
+AppConfig		8
+NodeAddress		1
+PrimaryControlLoop		2
+PhaseLossLevel		130
+TrqCompGain		120
+TrqCompAngOfst		29000
+TrqCompLim		2048
+TrqCompOnSpeed		5000
+TrqCompOffSpeed		6000
+PolePair		4
+FaultRetryPeriod		25603
+OffSetAdj0		0
+OffSetAdj1		0
+HallAngleOffset		21845
+Hall2FluxThr		90
+Flux2HallThr		60
+HallSampleFilter		288
+KpHallPLL		0
+HallSpdFiltBW		0
+HallTimeoutPeriod		1000
+##SYSTEM_PARAMS
+#STRING	usb-3rd-a-motor
+#VERSION	1.0
+ParPageConf		2048
+ADCConf		1
+InterfaceConf0		23
+InterfaceConf1		0
+UART0_Baudrate		0
+UART0_IdleCount		10000
+UART0_LinkBreakCount		10000
+UART1_Baudrate		13587
+UART1_IdleCount		10000
+UART1_LinkBreakCount		10000
+GKConf		4608
+SW_Version		7
+DACout[0]		1489
+DACout[1]		0
+DACout[2]		0
+DACout[3]		1000
+DACFiltBW		1000
+SafetyEnable		0
+FeatureID_selectL		65535
+FeatureID_selectH		256
+SysTaskTime		1
+SysTaskConfig		123
+AIN[0]		32773
+AIN[1]		6
+AIN[2]		7
+AIN[3]		21
+AIN[4]		22
+AIN[5]		23
+AIN[6]		0
+AIN[7]		17
+AIN[8]		1
+AIN[9]		2
+AIN[10]		3
+AIN[11]		19
+GPIOs[0]		53376
+GPIOs[1]		53380
+GPIOs[2]		1029
+GPIOs[3]		1030
+GPIOs[4]		1031
+GPIOs[5]		1032
+GPIOs[6]		1033
+GPIOs[7]		50186
+GPIOs[8]		1035
+GPIOs[9]		1037
+GPIOs[10]		1024
+GPIOs[11]		1024
+GPIOs[12]		1024
+GPIOs[13]		1024
+GPIOs[14]		1024
+GPIOs[15]		1024
+GPIOs[16]		1024
+GPIOs[17]		1024
+GPIOs[18]		1024
+GPIOs[19]		1024
+GPIOs[20]		1024
+GPIOs[21]		1024
+GPIOs[22]		1024
+GPIOs[23]		1024
+GPIOs[24]		1024
+GPIOs[25]		1024
+GPIOs[26]		1024
+GPIOs[27]		1024
+GPIOs[28]		1024
+GPIOs[29]		1024

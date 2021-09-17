@@ -1,0 +1,13 @@
+Product_ID      IMC101T
+Design_ID       IMC101T_A_V1.03.03
+Design_Vers      000.000
+
+Begin_Section 
+ Section_Name      System 
+ Begin_Trace_Data_Src 
+End_Trace_Data_Src 
+ End_Section 
+ Begin_Section 
+ Section_Name      Motor1 
+End_Section
+ 

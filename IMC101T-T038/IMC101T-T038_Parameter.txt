@@ -1,0 +1,206 @@
+##MOTOR1_PARAMS
+Custom_Design_Name	Eval-M1-101T + Eval-M1-05-65D Evaluation Board
+Mtr_Max_Speed		2730
+Mtr_Rate_Amps		0.40
+Mtr_Num_Poles		8
+Mtr_Ke		36.00
+Mtr_PWM		15
+FastLoopRate		1
+##ScalingBegin
+#NOREALUNIT		1		N/A		This count value does not have a real value equivalent
+#BITFIELD		1		N/A		This count defines bit filed settings
+#DIRECT		1		N/A		This count is the real value  For PrimaryControlLoop, SW_Version
+#M_MTR_IAB_A		0.0012893		A		Max: 2048 Count <--> 2.64 A  For Iu, Iv, Iw, I_Alpha, I_Beta
+#M_MTR_IAB_mA		1.2892687		mA		Max: 2048 Count <--> 2640.42 mA  For Iu, Iv, Iw, I_Alpha, I_Beta
+#M_MTR_VDC_V		0.1219582		V		Max: 4095 Count <--> 499.42 V  For VdcRaw, VdcFilt, VdcOvLevel, VdcUvLevel, CriticalOvLevel
+#M_MTR_FLXDQ_%		0.0488281		%		Rated: 2048 Count <--> 100.00 %  For Flx_M, Flx_Q
+#M_MTR_FLXDQ_Wb		0.0000593		Wb		Rated: 2048 Count <--> 0.12 Wb  For Flx_M, Flx_Q
+#M_MTR_ANG_deg		0.0054932		deg		Max: 32768 Count <--> 180.00 deg  For FluxAngle, OpenLoopAngle, HallAngle, RotorAngle, ParkAngle, TrqCompAngOfst, HallAngleOffset
+#M_MTR_FLXAB_%		0.0804082		%		Rated: 1244 Count <--> 100.00 %  For FluxAlpha, FluxBeta
+#M_MTR_FLXAB_Wb		0.0000977		Wb		Rated: 1244 Count <--> 0.12 Wb  For FluxAlpha, FluxBeta
+#C_MTR_VAB_V		0.0203264		V		Max: 8191 Count <--> 166.49 V  For V_Alpha, V_Beta
+#M_MTR_IDQ_%		0.0244141		%		Rated: 4096 Count <--> 100.00 %  For IQInitial, MotorLim, RegenLim, LowSpeedLim, FwkCurRatio, TrqCompLim
+#M_MTR_IDQ_Arms		0.0000977		Arms		Rated: 4096 Count <--> 0.40 Arms For IdRef_Ext, IqRef_Ext, IdFilt, IqFilt, IdFwk, TrqRef, Id, Iq, MotorCurrent, TrqRef_Comp
+#C_MTR_VDQ_Vrms		0.0205003		Vrms		Max: 4974 Count <--> 101.97 Vrms  For Vd_Ext, Vq_Ext, Vd, Vq, MotorVoltage
+#C_MTR_VDQ_%		0.0201045		%		Max: 4974 Count <--> 100.00 %  For Vd_Ext, Vq_Ext, Vd, Vq, MotorVoltage
+#C_MTR_MOD_%		0.0061035		%		Max: 16384 Count <--> 100.00 %  For MIndexFilt, TargetMI, MIRef,MinMI, MinMI
+#M_MTR_VEL_rpm		0.1666260		rpm		Max: 16384 Count <--> 2730.00 rpm  For TargetSpeed, MotorSpeed, abs_MotorSpeed, SpeedError, SpdRef, HallMotorSpeed, FluxMotorSpeed, DirectStartThr, RegenSpdThr, MinSpd, Pwm2PhThr, TrqCompOnSpeed, TrqCompOffSpeed, Hall2FluxThr, Flux2HallThr
+#M_MTR_VADC_V		0.0008059		V		Max: 4095 Count <--> 3.30 V  For VTH, ControlAnalog, DACout[0], DACout[1], DACout[2], DACout[3], ADC_Result0, ADC_Result1, ADC_Result2, ADC_Result3, ADC_Result4, ADC_Result5, ADC_Result6, ADC_Result7, ADC_Result8, ADC_Result9, ADC_Result10, ADC_Result11, TDerating, TShutdown
+#M_MTR_DTYIN_%		0.1000000		%		Max: 1000 Count <--> 100.00 %  For ControlDuty
+#M_MTR_FIN_Hz		0.1000000		Hz		Nom: 1000 Count <--> 100.00 Hz For ControlFreq
+#C_MTR_ISDUTY_%		0.0122070		%		Max: 8192 Count <--> 100.00 %  For IS _Duty
+#M_MTR_POS32H_cyc		10922.5000000		cycles		Max: 65535 Count <--> 715806037.50 cycles  For PositionCounter_H
+#M_MTR_POS32L_cyc		0.1666667		cycles		Max: 65535 Count <--> 10922.50 cycles  For PositionCounter
+#P_MTR_PWM_kHz		0.1000000		Hz		Nom: 100 Count <--> 10.00 kHz  For PwmFreq
+#P_MTR_PTCK2_us		0.0208333		us		Nom: 96 Count <--> 2.00 us  For PwmDeadtimeR, PwmDeadtimeF
+#P_MTR_PTCK1_us		0.0104167		us		Nom: 96 Count <--> 2.00 us  For SHDelay, TMinPhaseShift, TCntMin, PwmGuardBand, GatekillFilterTime, HallSampleFilter, PFC_TMinOff, PFC_Deadtime, PFC_SHDelay
+#P_MTR_polepair		2.0000000		poles		Nom: 1 Count <--> 2.00 poles  For PolePair
+#M_MTR_STCK10_s		0.0100000		s		Nom: 100 Count <--> 1.00 s  For RotorLockTime, RotorFreezeTime, PLL_OutSyncTime, HallTimeoutPeriod
+#M_MTR_STCK1_s		0.0010000		s		Nom: 1000 Count <--> 1.00 s  For TCatchSpin, ParkTime
+#M_SYS_CPU_%		0.0010000		%		Max: 1000 Count <--> 1.00 %  For CPU_Load, CPU_Load_Peak
+#M_SYS_TEMP_K		1.0000000		K		Nom: 300 Count <--> 300.00 K For InternalTemp
+#P_SYS_DELAY_ms		1.0000000		ms		Nom: 10 Count <--> 10.00 ms  For UVPLLTime, UART0_IdleCount, UART0_LinkBreakCount, UART1_IdleCount, UART1_LinkBreakCount, SysTaskTime
+#P_MTR_U0D16x10-3		0.0152590		x10-3		Nom: 65535 Count <--> 1000.00 x10-3  For KxSreg, KxIReg, PllKp, PllKi
+#P_MTR_U8D8		0.0039062		x1		Nom: 256 Count <--> 1.00 x1  For KpSreg
+#P_MTR_U4D12		0.0002441		x1		Nom: 4096 Count <--> 1.00 x1  For KpIreg, KpIregD
+##ScalingEnd
+##MOTOR1_REGS	0
+#STRING	5SME072HXP0018(Welling-56-8)
+#VERSION	1.0
+HwConfig		257
+SysConfig		5
+AngleSelect		2
+CtrlModeSelect		2
+PwmFreq		150
+PwmDeadtimeR		48
+PwmDeadtimeF		48
+SHDelay		48
+TMinPhaseShift		0
+TCntMin		0
+PwmGuardBand		288
+FaultEnable		207
+VdcOvLevel		2952
+VdcUvLevel		984
+CriticalOvLevel		3116
+RotorLockTime		1000
+FluxFaultTime		0
+GatekillFilterTime		96
+CompRef		1199
+BtsChargeTime		150
+TCatchSpin		0
+DirectStartThr		1000
+ParkTime		0
+ParkAngle		0
+OpenloopRamp		0
+IS_Pulses		0
+IS_Duty		4096
+IS_IqInit		100
+KpSreg		63
+KxSreg		12
+MotorLim		4096
+RegenLim		205
+RegenSpdThr		600
+LowSpeedLim		819
+LowSpeedGain		1397
+SpdRampRate		82
+MinSpd		600
+Rs		2219
+L0		10591
+LSlncy		0
+VoltScl		1818
+PllKp		200
+PllKi		16
+PllFreqLim		209
+AngMTPA		16384
+FlxTau		1165
+AtanTau		1414
+SpeedScalePsc		9
+SpeedScale		10549
+SpeedScaleRcp		12723
+SpdFiltBW		5461
+PGDeltaAngle		171
+IfbkScl		5805
+KpIreg		2294
+KpIregD		2294
+KxIreg		481
+FwkLevel		3040
+FwkKx		32
+FwkCurRatio		0
+VdqLim		4974
+AngDel		0
+AngLim		456
+IdqFiltBW		4096
+Pwm2PhThr		3001
+TDerating		1241
+TShutdown		1241
+CmdStop		0
+CmdStart		0
+CmdGain		0
+AppConfig		8
+NodeAddress		1
+PrimaryControlLoop		2
+PhaseLossLevel		22
+TrqCompGain		120
+TrqCompAngOfst		29000
+TrqCompLim		2048
+TrqCompOnSpeed		5000
+TrqCompOffSpeed		6000
+PolePair		4
+FaultRetryPeriod		25603
+OffSetAdj0		0
+OffSetAdj1		0
+HallAngleOffset		21845
+Hall2FluxThr		540
+Flux2HallThr		360
+HallSampleFilter		288
+KpHallPLL		0
+HallSpdFiltBW		2048
+HallTimeoutPeriod		1000
+
+##SYSTEM_PARAMS
+#STRING	5SME072HXP0018(Welling-56-8)
+#VERSION	1.0
+ParPageConf		2048
+ADCConf		1
+InterfaceConf0		23
+InterfaceConf1		0
+UART0_Baudrate		0
+UART0_IdleCount		10000
+UART0_LinkBreakCount		10000
+UART1_Baudrate		13587
+UART1_IdleCount		10000
+UART1_LinkBreakCount		10000
+GKConf		4900
+SW_Version		7
+DACout[0]		1489
+DACout[1]		0
+DACout[2]		0
+DACout[3]		1000
+DACFiltBW		1000
+SafetyEnable		0
+FeatureID_selectL		65279
+FeatureID_selectH		256
+SysTaskTime		1
+SysTaskConfig		123
+AIN[0]		5
+AIN[1]		6
+AIN[2]		7
+AIN[3]		21
+AIN[4]		22
+AIN[5]		23
+AIN[6]		0
+AIN[7]		17
+AIN[8]		1
+AIN[9]		2
+AIN[10]		3
+AIN[11]		19
+GPIOs[0]		53376
+GPIOs[1]		53380
+GPIOs[2]		1029
+GPIOs[3]		1030
+GPIOs[4]		1031
+GPIOs[5]		1032
+GPIOs[6]		1033
+GPIOs[7]		1034
+GPIOs[8]		1035
+GPIOs[9]		1037
+GPIOs[10]		1024
+GPIOs[11]		1024
+GPIOs[12]		1024
+GPIOs[13]		1024
+GPIOs[14]		1024
+GPIOs[15]		1024
+GPIOs[16]		1024
+GPIOs[17]		1024
+GPIOs[18]		1024
+GPIOs[19]		1024
+GPIOs[20]		1024
+GPIOs[21]		1024
+GPIOs[22]		1024
+GPIOs[23]		1024
+GPIOs[24]		1024
+GPIOs[25]		1024
+GPIOs[26]		1024
+GPIOs[27]		1024
+GPIOs[28]		1024
+GPIOs[29]		1024
