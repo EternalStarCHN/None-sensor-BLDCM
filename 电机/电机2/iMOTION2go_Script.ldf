@@ -1,0 +1,19 @@
+%----------------------------------------------------------------- 
+% Script Compiler Version : V1.0.14 
+%----------------------------------------------------------------- 
+% Script Object File 
+%----------------------------------------------------------------- 
+% SCRIPT_USER_VERSION              : 255.255 
+% DATE & TIME                      : 26.09.2021  20:57:07 
+% SIZE                             : 33 Bytes 
+% Total Number of Lines            : 2 
+% Task0 - Number of Instructions   : 0 
+% Task1 - Number of Instructions   : 0 
+%----------------------------------------------------------------- 
+% MCEDesigner ID for Script Global Variables, Script variables are
+%   part of System group
+%----------------------------------------------------------------- 
+% Program Script 
+a0 20 00 02 21 90 f5 ff ff ff ff 21 00 ff ff ff ff 01 00 32 00 ff ff ff ff 0a 00 0a 00 0e 01 00 00 00 00 00 00 03 
+% Verify Script 
+a0 21 00 02 00
