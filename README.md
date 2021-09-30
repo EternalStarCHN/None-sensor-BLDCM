@@ -5,6 +5,8 @@
  + **FAN7888MX** 3半桥门驱动集成电路，是单片三半桥门驱动器，设计用于高压、高速驱动MOSFET的IC以及工作电压高达+200 V的IGBT。  
 
 根据规格书绘制PCB示意图如下：  
+<img src="https://github.com/EternalStarCHN/None-sensor-BLDCM/blob/main/PIC/%E5%AE%9E%E7%89%A9%E4%BB%BF%E7%9C%9F%E5%9B%BE1.png?raw=true" width = "300" height = "200" alt="正面仿真图" align=center />  
+<img src="https://github.com/EternalStarCHN/None-sensor-BLDCM/blob/main/PIC/%E5%AE%9E%E7%89%A9%E4%BB%BF%E7%9C%9F%E5%9B%BE2.png?raw=true" width = "300" height = "200" alt="反面仿真图" align=center />  
 ![正面仿真图](https://github.com/EternalStarCHN/None-sensor-BLDCM/blob/main/PIC/%E5%AE%9E%E7%89%A9%E4%BB%BF%E7%9C%9F%E5%9B%BE1.png?raw=true)  
 
 ![反面仿真图](https://github.com/EternalStarCHN/None-sensor-BLDCM/blob/main/PIC/%E5%AE%9E%E7%89%A9%E4%BB%BF%E7%9C%9F%E5%9B%BE2.png?raw=true)  
